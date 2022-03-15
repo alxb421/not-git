@@ -5,21 +5,25 @@ This is no git
 pit
 
 # What it does?
-Uploads files to server using SCP. It is easy to use, and even a 15yo could do this in nano.
+* creates user config on the SourceHub server:
+  * full-name
+  * username
+  * bio
+  * avatar
+* creates repository
+* deletes repository
+* adds file to the repo
+* removes files form the repo
+* clones a repo `pit clone`
 
 # What is it for?
-Well, you can use a Directory Lister and use it as repository page (just Like GitHub) and using this, you can actually push to that server. Easy.
+This is meant to be a lightweight GitHub/GitLab alternative, making it good to self-host
 
-# TO DO:
-While I was writing this README file, an ideea started.
-What if I make a github clone. An easy to use one?
-Like, just download the PHP files, upload them to server
-and boom, you got your minimal git :thinking:
-
-So, the first in the TODO list would be a `clone` functionality.
-```sh
-pit clone user@s.e.r.v.er:/path/to/repo
-```
+# TODO:
+* finish web
+* finish the CLI tool
+* make installer
+* make version controll
 
 # Note
 This Github Clone will not support branches, pull and stuff like that. Not even commit messages. Or maybe? We'll see.
