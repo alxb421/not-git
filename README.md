@@ -1,5 +1,4 @@
-# not-git
-This is no git
+# This is no git
 
 # What is this then
 pit
